@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 32px;
+} 
+ .blogs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}  
+
+ .blog-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+
+} 
+.blog-info{
+  background-color: #fff;
+  width: 400px;
+}
+
+/* HÌNH2 */
+
+.blogs2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.blog2 {
+  position: relative;
+}
+
+.blog-img2 {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.blog-info2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

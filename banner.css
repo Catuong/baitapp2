@@ -1,0 +1,100 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+</style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    .button{
+      font: inherit;
+      background-color: transparent;
+    
+    }
+  
+  body {
+    font-family: Inter, sans-serif;
+  }
+
+   .h1{    
+    font-size: 28px;
+    font-weight: 800;
+    grid-area: auto;
+    line-height: 48px;
+    text-decoration: center;
+   }
+.title strong{
+    color:#b91c1c;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    grid-area: auto;
+    line-height: 48px;
+
+}
+.title{
+  font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    grid-area: auto;
+    line-height: 48px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+  gap: 16px;
+}
+
+.description{
+    font-size: 20px;
+    grid-area: auto;
+    line-height: 32.5px;
+    margin: 16px 0px 0px;
+    text-align: center;
+}
+.text{
+  margin-top: -20px ;
+}
+.banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;   
+    }
+ .box{
+   position: relative;
+ }
+ button {
+    font: inherit;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #b91c1c;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .btn-primary:hover{
+    background-color: #DC2626;
+    transform: translateY();
+  }
+  .btn-secondary {
+    background-color: #fff;
+    color: #b91c1c;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+    padding: 12px 48px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .banner{
+    transform: translateY(50%);
+  }

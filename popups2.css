@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+/* HÌNH1 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boximg img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 683px;
+  height: 427px;
+  justify-content: center;
+  
+}
+.boxx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900;
+  justify-content: flex-start;
+}
+.text1a {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text1b {
+  display: inline;
+  font-size: 48px;
+  font-weight: 900;
+  grid-area: auto;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text1c {
+  font-size: 14px;
+  font-weight: 900;
+  grid-area: auto;
+  margin: 8px 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text1d {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  grid-row: auto;
+  letter-spacing: 1.4px;
+  line-height: 20px;
+  margin: 32px 0px 0px;
+  padding: 16px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+}
+.text1e {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 500;
+  grid-area: auto;
+  letter-spacing: 1.4px;
+  line-height: 16px;
+  margin: 32px 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* Hình2 */
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  padding: 32px;
+}
+
+.popup {
+  padding: 32px;
+  border: 1px solid #dbeafe;
+  width: 512px;
+  border-radius: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.popup-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #60a5fa;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-icon svg {
+  height: 14px;
+  width: 14px;
+  color: #fff;
+}
+
+.popup-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.popup-body {
+  margin-bottom: 24px;
+}
+
+.popup-description {
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.popup-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  background-color: #3b82f6;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.btn-secondary {
+  background-color: #f9fafb;
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+/* HÌNH 3 */
+.boximg3 {
+  padding: 32px;
+  border: 1px solid #dbeafe;
+  width: 576px;
+  border-radius: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.boximg3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.text1 {
+  color: #ec4899;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin: 24px 0px 0px;
+}
+.text3 {
+  background-color: #db2777;
+  border-radius: 25px;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 700px;
+  line-height: 20px;
+  margin: 32px 0px 0px;
+  padding: 16px 0px;
+  text-align: center;
+  width: 100%;
+}
+.button {
+  font: inherit;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+}
+/* HÌNH4 */
+
+ .imgbox img{
+width: 48px;
+height: 48px;
+object-fit: cover;
+margin-left: 15px;
+}
+.box4{
+display: flex;
+gap:16px;
+width: 574px;
+height: 80px;
+border: 1px solid #dbeafe;
+align-items: center;
+margin-top: 20px;
+}
+.description4{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+   width: 478px;
+  height: 20px; 
+ }
+.content{
+  color:#6b7280;
+  text-overflow: ellipsis;
+}

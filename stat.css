@@ -1,0 +1,77 @@
+import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.item1{
+  background-color: #fff;  
+  border-color:#f3f4f6 ;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  line-height: 24px;
+  padding: 24px;
+  width: 500px;
+}
+
+.text1{
+    color: #6b7280;
+    font-size: 14px;
+    line-height:20px ;
+}
+.text2{
+    color: #111827;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.icon{
+    background-color: #dbeafe;
+    border-radius: 40px;
+    color: #2563eb;
+    line-height: 24px;
+    padding: 12px;
+    width: 56px 56px;
+    display: inline;
+}
+
+.box2.ion-icon{
+    color: #16a34a;
+    fill: #ecdfdf;
+    line-height: 24px;
+    stroke: #16a34a;
+}
+.text3{
+    color: #16a34a;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.text4{
+    color: #6b7280;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+.box2{
+    display: flex; 
+    gap:10px;
+}
+.item1{
+    display: flex;
+    align-items: center;
+}
+ .box1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 350px;
+ }
+ .text5{
+    color:#dc2626;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+ }
